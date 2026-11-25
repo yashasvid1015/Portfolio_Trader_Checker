@@ -1,0 +1,21 @@
+portfolio_id,security_id,action,quantity,price,decision,reason
+POR001,AAPL,Buy,20,150,Approved,Trade passed all compliance checks.
+POR001,AAPL,Buy,60,150,Approved,Trade passed all compliance checks.
+POR001,TCS,Sell,50,310,Approved,Trade passed all compliance checks.
+POR001,TCS,Sell,60,310,Approved,Trade passed all compliance checks.
+POR001,XYZCORP,Buy,10,50,Rejected,Security is restricted for this portfolio.
+POR001,AAPL,Buy,400,150,Rejected,Insufficient cash for this buy order.
+POR001,AAPL,Buy,-10,150,Rejected,Invalid trade data.
+POR001,INFY,Buy,10,1500,Rejected,Insufficient cash for this buy order.
+POR002,GOOGL,Buy,5,2000,Needs Manual Sign-off,Exceeds maximum position concentration — requires approval.
+POR003,BADCO,Buy,10,100,Rejected,Security is restricted for this portfolio.
+POR003,TCS,Buy,5,300,Approved,Trade passed all compliance checks.
+POR003,INFY,Buy,50,1500,Rejected,Insufficient cash for this buy order.
+POR003,RELIANCE,Sell,30,2400,Approved,Trade passed all compliance checks.
+POR003,RELIANCE,Sell,31,2400,Rejected,Insufficient holdings to sell.
+POR004,GOOGL,Buy,10,2000,Needs Manual Sign-off,Exceeds maximum position concentration — requires approval.
+POR004,AAPL,Buy,300,150,Needs Manual Sign-off,Exceeds maximum position concentration — requires approval.
+POR005,PENNY1,Buy,5,10,Approved,Trade passed all compliance checks.
+POR005,AAPL,Buy,33,150,Needs Manual Sign-off,Exceeds maximum position concentration — requires approval.
+POR005,AAPL,Buy,34,150,Rejected,Insufficient cash for this buy order.
+POR005,TCS,Buy,20,250,Needs Manual Sign-off,Exceeds maximum position concentration — requires approval.
